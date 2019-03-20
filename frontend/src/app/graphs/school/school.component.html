@@ -1,0 +1,17 @@
+<app-admin-nav>
+<br>
+<div class="container">
+<div class="jumbotron" style="text-align:center">
+    <strong>Graph showing how likely student would recommend School of Computing to a friend or colleague</strong>
+</div>
+<br>
+<div class="margin">
+    <div class="center" *ngIf="chart">
+        <canvas id="canvas">{{chart}}</canvas>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12" >
+        <a type="button" class="pull-right" routerLink="../lab">Labaratory>></a>
+      </div>
+</div>
+</div>
+</app-admin-nav>

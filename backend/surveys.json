@@ -1,0 +1,142 @@
+{
+  "surveyId": 1,
+  "survey": {
+    "showCompletedPage": false,
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+         {
+          "type": "barrating",
+          "title":"Considering both the limitations and possibilities of the subject matter and the course, how would you rate the overall effectiveness of this unit?",
+          "isRequired": true,
+          "name":"unit" ,
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10
+          ]
+         },
+         {
+      "title":"Briefly give us your views  based on your response",
+      "isRequired": true,
+      "type": "comment",
+      "name": "unit comment"
+        }
+        ]
+       },
+
+      {
+        "name": "page2",
+        "elements": [
+          {
+          "type": "barrating",
+          "title":"How would you rate the overall effectiveness of the instructor’s teaching?",
+          "isRequired": true,
+          "name": "instructor",
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10
+          ]
+         },
+         {
+      "title":"Briefly give reason for the rating above",
+      "isRequired": true,
+      "type": "comment",
+      "name": "instructor comment"
+        }
+        ]
+       },
+
+       {
+        "name": "page3",
+        "elements": [
+         {
+          "type": "barrating",
+          "title":"How would you rate the overall effectiveness of lab Equipments when this particular unit was being administered (optional)?",
+          "name":"lab" ,
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10
+          ]
+         },
+         {
+      "title":"Give a brief Recomendation",
+      "type": "comment",
+      "name": "labc"
+        }
+        ]
+       },
+
+
+       {
+        "name": "page4",
+        "elements": [
+          {
+          "type": "barrating",
+          "title":"How would you rate the classroom facilities provided by the school as per this unit?",
+          "isRequired": true,
+          "name": "classroom",
+          "choices": [
+           1,
+           2,
+           3,
+           4,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10
+          ]
+         },
+         {
+      "title":"Give your Reasons",
+      "isRequired": true,
+      "type": "comment",
+      "name": "classroom comment"
+        }
+        ]
+       },
+
+       {
+        "name": "page5",
+        "elements": [
+         {
+          "type": "rating",
+          "isRequired": true,
+          "name": "school",
+          "title": "Considering your complete experience with the school of computing and informatics, how likely would you be to recommend us to a friend or colleague?",
+          "rateMax": 10
+         }
+        ]
+       }
+    ],
+        "showProgressBar": "top"
+  }
+}
+
+
